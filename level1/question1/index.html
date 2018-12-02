@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript - MA03 - Question 1</title>
+<body>
+
+<!--Contact Form-->
+
+
+<form name="contact">
+
+<table width="500px" align="center">
+<td colspan="2" style="text-align:center">
+<h1>Contact me</h1>
+</td>
+<tr>
+
+ <td>
+  <label for="firstName">First name:</label>
+ </td>
+ <td>
+  <input  type="text" name="first name"  size="40" pattern="^[a-zA-Z ]{2,}$">
+ </td>
+</tr>
+ 
+<tr>
+ <td>
+  <label for="lastName">Last name:</label>
+ </td>
+ <td>
+  <input  type="text" name="last name"  size="40" pattern="^[a-zA-Z ]{2,}$">
+ </td>
+</tr>
+<tr>
+ <td>
+  <label for="tel">Telephone:</label>
+ </td>
+ <td>
+  <input  type="text" name="telephone" size="40" pattern="\d{7,12}$">
+ </td>
+ 
+</tr>
+<tr>
+ <td>
+  <label for="email">Email:</label>
+ </td>
+ <td>
+  <input  type="text" name="email"  size="40" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$">
+ </td>
+</tr>
+<tr>
+
+ 
+ 
+</tr>
+<tr>
+ <td colspan="2" style="text-align:center">
+	 <button type="submit"  id="submit">Submit</button>
+ </td>
+</tr>
+</table>
+</form>
+
+<p align="center">Check the console to validate if correct format has been used</p>
+
+<script src="script.js"></script>
+</body>
+</html>
